@@ -24,7 +24,6 @@ class Livro(models.Model):
     ano = models.IntegerField(blank=True, null=True)
     editora = models.ForeignKey(Editora, on_delete=models.CASCADE)
     assunto = models.CharField(max_length=200)
-    # status = models.ForeignKey(Status, on_delete=models.CASCADE, null=True)
 
     def __str__(self):
         return self.titulo
