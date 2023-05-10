@@ -13,7 +13,7 @@ Para criar o projeto Djando (No Windows), foram seguidos os seguintes passos:
 
 1. Instalação do Python. Veja como [aqui](https://docs.djangoproject.com/en/4.1/intro/install/#install-python).
 2. Atualização do PIP
-> $ python -m install --upgrade pip
+> $ python -m pip install --upgrade pip
 3. É recomendado criar um ambiente virtual (virtual enviroment, ou venv). Assim, o python e dependências serão instalados no diretório local do projeto, evitando conflito com outras versões. O comando abaixo, executado de dentro do diretório "backend" irá criar um ambiente virtual.
 > python -m venv bibVenv 
 4. Precisamos ativar o venv. Basta executar o script dentro da pasta bibVenv\Scripts
